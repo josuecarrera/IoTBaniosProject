@@ -1,0 +1,27 @@
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0.5rem 1rem;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .nav-list a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  .nav-list a:hover {
+    background-color: #f0f0f0;
+  }
+  .nav-list .active {
+    background-color: #004a99;
+    color: white;
+  }

@@ -1,0 +1,32 @@
+.sensor-charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.sensor-chart-card {
+  width: 400px;
+  height: 250px;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.sensor-chart-card h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.custom-tooltip {
+  background: #222;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-size: 0.95rem;
+}

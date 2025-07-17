@@ -1,0 +1,96 @@
+.main-container {
+  background: #fff;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 70px 20px;
+}
+
+.sensor-card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+.sensor-card:hover {
+  transform: translateY(-10px);
+}
+
+.sensor-image-container {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.sensor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.sensor-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 16px;
+  transition: transform 0.3s ease;
+  transform: translateY(100%);
+}
+
+.sensor-card:hover .sensor-overlay {
+  transform: translateY(0);
+}
+
+.sensor-data {
+  margin-top: 8px;
+}
+
+.map-container {
+  width: 100%;
+  height: 300px;
+}
